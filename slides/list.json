@@ -1,8 +1,39 @@
 [
     "index.md",
     "https-money.md",
-    "real-story.md",
-    "free-https.md",
+    {
+        "attr": {
+            "data-background": "resources/very-godaddy-money.png"
+        }
+    },
+    {
+        "attr": {
+            "data-background": "resources/are-you-fucking-kidding-me.jpg"
+        }
+    },
+    [
+        "true-story-1.md",
+        "true-story-2.md",
+        "true-story-3.md",
+        "true-story-4.md",
+        "true-story-5.md",
+        {
+            "attr": {
+                "data-background": "resources/oh-god-please-kill-me.jpg"
+            }
+        }
+    ],
+    "what-is-letsencrypt.md",
+    [
+        "how-it-works.md",
+        "domain-validation-1.md",
+        "domain-validation-2.md",
+        "domain-validation-3.md",
+        "certificate-issuance-and-revocation-1.md",
+        "certificate-issuance-and-revocation-2.md",
+        "certificate-issuance-and-revocation-3.md",
+        "certificate-issuance-and-revocation-4.md"
+    ],
     "steps.md",
     "html-javascript-only-demo.md",
     "easy.md",

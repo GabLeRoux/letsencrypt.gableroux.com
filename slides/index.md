@@ -1,10 +1,7 @@
+# letsencrypt
+# all the things
 
-# letsencrypt all the things
+### Free HTTPS certificates everywhere
 
-From the terminal, pop in:
-
-  ```yo reveal:slide "Slide Title"```
-
-Available options:
-
- ```--markdown --attributes --notes```
+By Gabriel Le Breton  
+[<i class="fa fa-twitter"></i> @gableroux](https://www.twitter.com/gableroux)

@@ -15,6 +15,7 @@
         "true-story-1.md",
         "true-story-2.md",
         "true-story-3.md",
+        "true-story-3a.md",
         "true-story-4.md",
         "true-story-5.md",
         {
@@ -23,17 +24,24 @@
             }
         }
     ],
-    "what-is-letsencrypt.md",
+    [
+        "what-is-letsencrypt.md",
+        "key-principles.md",
+        "the-trap.md"
+    ],
     [
         "how-it-works.md",
         "domain-validation-1.md",
         "domain-validation-2.md",
         "domain-validation-3.md",
+        "domain-validation-4.md",
         "certificate-issuance-and-revocation-1.md",
         "certificate-issuance-and-revocation-2.md",
         "certificate-issuance-and-revocation-3.md",
-        "certificate-issuance-and-revocation-4.md"
+        "certificate-issuance-and-revocation-4.md",
+        "certificate-issuance-and-revocation-5.md"
     ],
+    "certificates.md",
     "steps.md",
     "html-javascript-only-demo.md",
     "easy.md",

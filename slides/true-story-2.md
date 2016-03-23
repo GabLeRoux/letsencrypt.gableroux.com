@@ -1,10 +1,9 @@
-##  Couchdb + Erlang + Centos
+##  Investigate
 
-> Current Erlang/OTP releases at R15B02 or earlier have a variety of minor issues cropping up with SSL. If your usage is expected to be heavy, you may wish to consider using an SSL wrapper, e.g. stunnel or haproxy or reverse / front-end proxies such as nginx or apache2 in place.
-
-*We should be fine...* Oh wait, **CentOS**
-
-```
-erl -V
-Erlang R14B04
-```
+* Test couch in a browser, it works
+* Test on Mobiles,  the *fun* begins:  
+  * ios and Android have missing chains
+  * Find out you need Intermediate CA Certificatates to complete chain
+  * Find *all_intermediate_ca_certificates.p7b*
+    at https://certs.godaddy.com/repository
+  * Start searching for couchdb certificate

@@ -1,15 +1,10 @@
-##  Investigate
+##  Couchdb + Erlang + Centos
 
-* Mobiles (ios and Android) have missing chains
-* Discover stunnel
-* Read config
-* Fun begins:  
-  https://certs.godaddy.com/repository
-* Find out you need  
-  *all_intermediate_ca_certificates.p7b*
+> Current Erlang/OTP releases at R15B02 or earlier have a variety of minor issues cropping up with SSL. If your usage is expected to be heavy, you may wish to consider using an SSL wrapper, e.g. stunnel or haproxy or reverse / front-end proxies such as nginx or apache2 in place.
 
-Oh great, `p7b`, not the right format, we need `pem`
+*We should be fine...* Oh wait, **CentOS**
 
-    openssl pkcs7 -inform der -in a.p7b -print_certs -out a.pem
-
-<small>ref: [serverfault: How do I ensure that stunnel sends all intermediate ca certs](http://serverfault.com/questions/254795/how-do-i-ensure-that-stunnel-sends-all-intermediate-ca-certs)</small>
+```
+erl -V
+Erlang R14B04
+```

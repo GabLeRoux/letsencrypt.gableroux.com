@@ -26,7 +26,7 @@ $backgroundColor: #222;
 $mainColor: #fff;
 $headingColor: #fff;
 
-$mainFontSize: 38px;
+$mainFontSize: 36px;
 $mainFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingFont: 'Source Sans Pro', Helvetica, sans-serif;
 $headingTextShadow: none;
@@ -51,3 +51,16 @@ section.has-light-background {
 // Theme template ------------------------------
 @import "../../bower_components/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
+
+
+body {
+	background-image: url("/resources/footer_lodyas/footer_lodyas.png");
+}
+
+pre, code {
+	border-radius: 10px;
+}
+
+code.hljs {
+	padding: 20px !important;
+}

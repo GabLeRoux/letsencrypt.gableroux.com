@@ -1,6 +1,5 @@
-## Found the cert
+## Discover `stunnel`
 
-* Discover stunnel
 * Read config
 
 **all_intermediate_ca_certificates.p7b**

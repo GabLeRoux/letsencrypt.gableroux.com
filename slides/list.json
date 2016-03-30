@@ -2,13 +2,15 @@
     "index.md",
     "https-money.md",
     {
+        "filename": "godaddy-1.md",
         "attr": {
-            "data-background": "resources/very-godaddy-money.png"
+            "data-transition": "fade"
         }
     },
     {
+        "filename": "godaddy-2.md",
         "attr": {
-            "data-background": "resources/are-you-fucking-kidding-me.jpg"
+            "data-transition": "fade"
         }
     },
     [
@@ -42,12 +44,23 @@
         "certificate-issuance-and-revocation-5.md"
     ],
     "certificates.md",
-    "steps.md",
+    {
+        "attr": {
+            "data-background": "resources/tired-meerkat.gif"
+        }
+    },
     "html-javascript-only-demo.md",
-    "easy.md",
+    [
+        "steps.md",
+        "steps-letsencrypt-auto-help.md",
+        "steps-limits.md",
+        "steps-commands.md",
+        "steps-renew.md",
+        "auto-renew.md"
+    ],
     "real-life-example.md",
     "nginx.md",
     "ssllab-ssl-test-score.md",
-    "auto-renew.md",
-    "salt.md"
+    "links.md",
+    "conclusion.md"
 ]

@@ -1,14 +1,16 @@
-## A few months later
-### Hey it's time for a certificate renew
+## A few months later...
 
-> Do you remember the renew procedures?
+> **Client**: Browser is red!  
+(it's time for a certificate renew)
+
+> **You**: Any idea how to renew certificates?
+
+> **Client**: Yeah the guy who worked for us 3 years ago, he took some notes in confluence
 
 <hr>
 
-> Yeah the guy who worked for us 3 years ago, he took some notes in confluence
+You find the page and read
 
-<hr>
-
-Find the page
-
-> todo: write procedures here
+```
+todo: write procedures here
+```

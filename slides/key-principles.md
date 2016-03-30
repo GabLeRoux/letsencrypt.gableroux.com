@@ -1,4 +1,4 @@
-## Key principles
+## Key principles (buzz words)
 
 * **Free**: Anyone who owns a domain name can use Let’s Encrypt
 * **Automatic**: automatically take care of renewal.

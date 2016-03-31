@@ -62,5 +62,11 @@
     "nginx.md",
     "ssllab-ssl-test-score.md",
     "links.md",
-    "conclusion.md"
+    {
+        "filename": "conclusion.md",
+        "attr": {
+            "data-transition": "fade",
+            "data-background": "#fff"
+        }
+    }
 ]

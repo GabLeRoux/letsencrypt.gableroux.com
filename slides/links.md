@@ -12,3 +12,4 @@
 * [Digital ocean: Secure nginx with LE on ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04)
 * [letsencrypt saltstack formula](https://github.com/saltstack-formulas/letsencrypt-formula)
 * [Setup for Apache, NGINX & Node.js](https://gist.github.com/davestevens/c9e437afbb41c1d5c3ab) (did not test it tough)
+* [letsecure.me](https://letsecure.me/secure-web-deployment-with-lets-encrypt-and-nginx/) (get A+ on ssltest! Thanks [@jipiboily](http://jipiboily.com/))

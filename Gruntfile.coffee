@@ -32,7 +32,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
             sass:
                 files: ['css/source/theme.scss']
                 tasks: ['sass']
@@ -42,7 +42,7 @@ module.exports = (grunt) ->
             theme:
                 files:
                     'css/theme.css': 'css/source/theme.scss'
-        
+
         connect:
 
             livereload:
@@ -92,15 +92,17 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+        'gh-pages':
+            options:
+                base: 'dist'
+                src: [ '**' ]
 
 
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)
 
     grunt.registerTask 'buildIndex',
-        'Build index.html from templates/_index.html and slides/list.json.',
-        ->
+        'Build index.html from templates/_index.html and slides/list.json.', ->
             indexTemplate = grunt.file.read 'templates/_index.html'
             sectionTemplate = grunt.file.read 'templates/_section.html'
             slides = grunt.file.readJSON 'slides/list.json'
@@ -136,7 +138,11 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-    
+    grunt.registerTask 'deploy',
+        'Deploy to gh-pages', [
+            'dist'
+            'gh-pages'
+        ]
 
     # Define default task.
     grunt.registerTask 'default', [

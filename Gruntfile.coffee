@@ -92,11 +92,11 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
+
         'gh-pages':
             options:
                 base: 'dist'
-                src: [ '**' ]
-
+            src: ['**']
 
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)

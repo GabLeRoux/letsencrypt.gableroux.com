@@ -1,0 +1,15 @@
+## Useful links
+
+* [Let's Encrypt website](https://letsencrypt.com)
+* [FAQ](https://community.letsencrypt.org/t/frequently-asked-questions-faq/26)
+* [Official client documentation](https://letsencrypt.readthedocs.org/en/latest/index.html)
+* [#letsencrypt on freenode irc](https://webchat.freenode.net/?channels=%23letsencrypt)
+* [List of Client Implementations](https://github.com/letsencrypt/letsencrypt/wiki/Links)
+* [Plugins](https://letsencrypt.readthedocs.org/en/latest/using.html#plugins)
+* [Browsers and operating systems support](https://community.letsencrypt.org/t/which-browsers-and-operating-systems-support-lets-encrypt/4394)
+* [Pros and cons of 90-day certificate lifetimes](https://community.letsencrypt.org/t/pros-and-cons-of-90-day-certificate-lifetimes/4621)
+* [Web Hosting Supporting LE](https://github.com/letsencrypt/letsencrypt/wiki/Web-Hosting-Supporting-LE)
+* [Digital ocean: Secure nginx with LE on ubuntu 14.04](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-14-04)
+* [letsencrypt saltstack formula](https://github.com/saltstack-formulas/letsencrypt-formula)
+* [Setup for Apache, NGINX & Node.js](https://gist.github.com/davestevens/c9e437afbb41c1d5c3ab) (did not test it tough)
+* [letsecure.me](https://letsecure.me/secure-web-deployment-with-lets-encrypt-and-nginx/) (get A+ on ssltest! Thanks [@jipiboily](http://jipiboily.com/))
